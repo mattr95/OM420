@@ -1,0 +1,13 @@
+Random forest run:
+-----------------------------------------
+fit <- randomForest(y~.,
+                    data = cust_train,
+                    nodesize = 10,
+                    ntree=10000)
+
+> train_error
+[1] 0.02568016
+
+> test_error
+[1] 0.09077638
+-----------------------------------------
